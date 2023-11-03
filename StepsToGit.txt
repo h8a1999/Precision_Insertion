@@ -1,0 +1,16 @@
+git init
+
+# Para subir un archivo git add "filename"
+# Para subir todo el folder
+git add .   
+
+# Poner comentario a la version
+git commit -m "Add all my files 2"
+
+git remote add origin https://github.com/h8a1999/Precision_insertion.git
+
+git remote add origin
+
+# git pull origin master 
+
+git push origin master
