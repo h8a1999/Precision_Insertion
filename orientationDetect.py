@@ -454,7 +454,20 @@ class detectOrientation:
         self.drawBaseInfo(frame)
         self.drawRefPoint(frame)
 
+class word:
+    def __init__(self):
+        # Camera position wrt robot base
+        self.xc
+        self.yc
+        self.zc
 
+        # Robot base
+        self.xc = 0
+        self.yc = 0 
+        self.zc = 0
+
+        # Other variables
+        self.resolution
 
 
 if __name__ == "__main__":
